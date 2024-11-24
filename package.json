@@ -1,7 +1,7 @@
 {
-  "name": "@rs2837/eslint-config",
+  "name": "@seno-dev/eslint-config",
   "version": "1.0.2",
-  "repository": "github:rs2837/eslint-config",
+  "repository": "github:seno-dev/eslint-config",
   "license": "MIT",
   "author": "Seno <rs2837@gmail.com>",
   "type": "module",
