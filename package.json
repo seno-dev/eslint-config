@@ -1,6 +1,6 @@
 {
   "name": "@seno-dev/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "github:seno-dev/eslint-config",
   "license": "MIT",
   "author": "Seno <seno.rs2837@gmail.com>",
