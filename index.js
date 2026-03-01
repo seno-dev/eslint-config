@@ -52,6 +52,7 @@ export default ts.config(
       parser: ts.parser,
     },
     rules: {
+      curly: 'error',
       eqeqeq: ['error', 'always', { null: 'ignore' }],
       'no-empty': 'off',
       'no-undef': 'off',
