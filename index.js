@@ -53,8 +53,9 @@ export default ts.config(
     },
     rules: {
       curly: 'error',
-      eqeqeq: ['error', 'always', { null: 'ignore' }],
+      eqeqeq: ['error', 'always'],
       'no-empty': 'off',
+      'no-restricted-syntax': ['error', 'ForStatement', 'ForInStatement'],
       'no-undef': 'off',
       'object-shorthand': 'error',
 
@@ -106,11 +107,11 @@ export default ts.config(
         },
       ],
 
-      'sort-imports': ['error', { ignoreDeclarationSort: true }],
-      'import/first': 'error',
-      'import/no-duplicates': 'error',
+      'sort-imports': ['warn', { ignoreDeclarationSort: true }],
+      'import/first': 'warn',
+      'import/no-duplicates': 'warn',
       'import/order': [
-        'error',
+        'warn',
         {
           'newlines-between': 'always',
           groups: [
